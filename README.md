@@ -1,82 +1,140 @@
-# Student Grade Calculator
+# Module 1 – Introduction to AI & Python
 
-## Project Description
+## Overview
 
-The Student Grade Calculator is a Python mini project that calculates a student's total marks, average, percentage, and grade based on marks entered for five subjects.
+This module helped me build a basic understanding of Artificial Intelligence and Python programming. I learned the fundamental concepts of AI, Machine Learning, and Deep Learning, followed by hands-on Python practice.
 
-The project also validates the entered marks and handles invalid non-numeric input.
+## Topics Covered
 
-## Features
+### 1. Introduction to AI
 
-* Accepts the student's name
-* Accepts five subject names
-* Accepts marks for each subject
-* Validates marks between 0 and 100
-* Handles non-numeric input using `try` and `except`
-* Displays each subject with its marks
-* Calculates total marks
-* Calculates average marks
-* Calculates percentage
-* Assigns a grade based on the percentage
+* Artificial Intelligence (AI)
+* Machine Learning (ML)
+* Deep Learning (DL)
+* Relationship between AI, ML, and DL
+* Supervised Learning
+* Real-world applications of AI
+
+### 2. Python Basics
+
+I practiced the following Python concepts:
+
+* `print()`
+* Variables
+* Data types:
+
+  * String
+  * Integer
+  * Float
+  * Boolean
+* Type conversion
+* `type()`
+* F-strings
+
+### 3. Operators
+
+I practiced:
+
+* Arithmetic operators: `+`, `-`, `*`, `/`, `%`, `//`, `**`
+* Comparison operators: `>`, `<`, `>=`, `<=`, `==`, `!=`
+* Logical operators: `and`, `or`, `not`
+* Assignment operators: `=`, `+=`, `-=`
+
+### 4. Conditional Statements
+
+Practiced:
+
+* `if`
+* `elif`
+* `else`
+* Multiple conditions
+* Chained comparisons
+
+Example practice included a student marks classification program.
+
+### 5. Loops
+
+#### For Loop
+
+Practiced:
+
+* `range()`
+* Printing sequences
+* Calculating sums
+* Finding even numbers
+* Multiplication tables
+
+#### While Loop
+
+Practiced:
+
+* Counting from 1 to 5
+* Counting down from 10 to 1
+
+### 6. Functions
+
+Learned:
+
+* Creating functions using `def`
+* Parameters and arguments
+* Returning values using `return`
+
+Practice functions included:
+
+* Greeting a person
+* Calculating the square of a number
+* Adding two numbers
+
+### 7. Lists
+
+Practiced:
+
+* Creating lists
+* Indexing
+* Slicing
+* Iterating through lists
+* Adding elements using `append()`
+* `max()`
+* `min()`
+* `sum()`
+* `len()`
+
+## Final Practice – Basic Number Analyzer
+
+I created a basic number analyzer using:
+
+```python
+numbers = [12, 7, 20, 5, 18]
+```
+
+The program performs the following tasks:
+
+1. Finds the largest number
+2. Finds the smallest number
+3. Calculates the total
+4. Calculates the average
+5. Counts the number of even values
+
+### Output
+
+* Largest number: `20`
+* Smallest number: `5`
+* Total: `62`
+* Average: `12.4`
+* Number of even values: `3`
+
+## What I Learned
+
+Through this module, I developed a foundation in Python programming and learned how basic programming concepts can be used to solve simple problems.
+
+I also learned the basic differences between AI, Machine Learning, and Deep Learning and explored some real-world applications of AI.
 
 ## Technologies Used
 
 * Python
+* Visual Studio Code
+* GitHub
 
-## Python Concepts Used
+## Module Status
 
-* Variables
-* Lists
-* `for` loops
-* `while` loops
-* Conditional statements
-* Functions such as `sum()`
-* `zip()`
-* `try` and `except`
-* Input validation
-* Arithmetic operations
-
-## How to Run
-
-1. Make sure Python is installed on your computer.
-2. Clone or download this repository.
-3. Open the project folder in VS Code or another Python-supported editor.
-4. Run the following file:
-
-```text
-student_grade_calculator.py
-```
-
-5. Enter the student's name, subject names, and marks when prompted.
-
-## Grade Criteria
-
-| Percentage | Grade |
-| ---------- | ----- |
-| 90–100     | A     |
-| 75–89      | B     |
-| 60–74      | C     |
-| Below 60   | D     |
-
-## Example Output
-
-```text
------ STUDENT RESULT -----
-
-Student Name = Apoorva
-
-Maths : 85
-Python : 90
-English : 78
-Science : 92
-AI : 80
-
-Total Marks Scored = 425
-Average = 85.0
-Percentage = 85.0 %
-Grade = B
-```
-
-## Project Purpose
-
-This project was created as part of Module 2 to practice Python programming concepts by building a simple practical application.
+**Module 1 – Completed ✅**
